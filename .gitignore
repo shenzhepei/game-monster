@@ -48,3 +48,7 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+/coverage/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
