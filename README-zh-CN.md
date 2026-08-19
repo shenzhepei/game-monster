@@ -1,7 +1,7 @@
-# Monster Field
+# 怪物原野
 
 <!-- repo-languages:start -->
-English | [简体中文](README-zh-CN.md)
+[English](README.md) | 简体中文
 <!-- repo-languages:end -->
 
 <!-- repo-badges:start -->
@@ -16,34 +16,34 @@ English | [简体中文](README-zh-CN.md)
 [![Sponsor](https://img.shields.io/github/sponsors/shenzhepei?style=flat-square&logo=githubsponsors&label=Sponsor)](https://github.com/sponsors/shenzhepei)
 <!-- repo-badges:end -->
 
-A compact survival game built with React and Phaser. Explore a pixel-art field, fight roaming monsters, gain experience, level up, and keep progress in a local save.
+一款使用 React 与 Phaser 构建的轻量生存游戏。在像素原野中探索、对抗游荡的怪物、获得经验并升级，还可以将进度保存在本地。
 
-[Play Monster Field](https://shenzhepei.github.io/game-monster/)
+[开始游戏](https://shenzhepei.github.io/game-monster/)
 
-![Monster Field showing the live arena and player HUD](docs/preview.jpg)
+![怪物原野展示实时战斗场景与玩家状态面板](docs/preview.jpg)
 
-## Features
+## 功能
 
-- Phaser-powered movement, animation, collision, and monster pursuit
-- Keyboard and touch movement with a short-range strike
-- Health, experience, level, gold, and defeat progression
-- Local manual saves and a resettable run
-- Original pixel character and monster artwork from the earlier project
-- Responsive English and Simplified Chinese interface
+- 使用 Phaser 实现移动、动画、碰撞与怪物追踪
+- 支持键盘和触控移动，以及近距离攻击
+- 完整的生命、经验、等级、金币与击败数量成长
+- 本地手动存档，并可随时开始新的冒险
+- 保留早期项目中的原创像素角色与怪物素材
+- 完整适配桌面和移动端的中英文界面
 
-## Development
+## 本地开发
 
-Requires Node.js 24 and pnpm 10.33.2.
+需要 Node.js 24 和 pnpm 10.33.2。
 
     corepack enable
     pnpm install
     pnpm dev
 
-Run production and test checks with:
+运行生产构建与测试：
 
     pnpm build
     pnpm test:coverage
 
-## License
+## 许可证
 
-MIT. The original 2020 copyright notice is preserved in [LICENSE](LICENSE).
+MIT。原项目 2020 年的版权声明保留在 [LICENSE](LICENSE) 中。
